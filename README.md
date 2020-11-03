@@ -1,6 +1,6 @@
 # DinamicRadioGroup
 
-* XML code:
+* `XML` code:
 ```xml
 <RadioGroup
     android:id="@+id/radioGrp"
@@ -8,7 +8,7 @@
     android:layout_height="wrap_content" />
 ```
 
-* Activity code:
+* `Activity` code:
 ```java
 String[] websitesArray = {"Yahoo", "Hotmail", "Gmail", "Facebook", "Other"};
 
