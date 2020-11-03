@@ -18,10 +18,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initRadioButton() {
-        final RadioGroup radioGrp = findViewById(R.id.rg);
+        final RadioGroup radioGrp = findViewById(R.id.radioGrp);
 
         //get string array from source
-        String[] websitesArray = getResources().getStringArray(R.array.websites_array);
+//        String[] websitesArray = getResources().getStringArray(R.array.websites_array);
+        String[] websitesArray = {"Yahoo", "Hotmail", "Gmail", "Facebook", "Other"};
 
         //create radio buttons
         for (int i = 0; i < websitesArray.length; i++) {
